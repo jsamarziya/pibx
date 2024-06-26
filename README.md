@@ -11,6 +11,8 @@ Raspberry Pi OS Lite 64-bit (bullseye)
 
 ## Setup
 - `sudo dpkg-reconfigure locales`
+- `sudo raspi-config`
+- 
 ## Packages
 - git
 - keychain
