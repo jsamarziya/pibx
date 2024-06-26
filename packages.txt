@@ -1,7 +1,0 @@
-OS image:
-Raspberry Pi OS Lite 64-bit
-
-Packages:
-git
-keychain
-
