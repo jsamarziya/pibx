@@ -9,6 +9,8 @@ My Raspberry Pi PBX system.
 ## OS
 Raspberry Pi OS Lite 64-bit (bullseye)
 
+## Setup
+- `sudo dpkg-reconfigure locales`
 ## Packages
 - git
 - keychain
