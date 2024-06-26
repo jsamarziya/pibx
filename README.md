@@ -15,5 +15,6 @@ Raspberry Pi OS Lite 64-bit (bullseye)
 - `sudo rm /etc/motd`
 
 ## Packages
+- asterisk
 - git
 - keychain
