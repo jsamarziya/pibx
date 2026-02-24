@@ -7,14 +7,15 @@ My Raspberry Pi PBX system.
 - 64GB SD card
 
 ## OS
-Raspberry Pi OS Lite 64-bit (bullseye)
+Raspberry Pi OS Lite 64-bit (trixie)
+Installed using Raspberry Pi Imager
 
 ## Setup
 - `sudo dpkg-reconfigure locales`
-- `sudo raspi-config`
 - `sudo rm /etc/motd`
+- `sudo apt update`
+- `sudo apt full-upgrade`
 
 ## Packages
-- asterisk
 - git
 - keychain
