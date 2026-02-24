@@ -7,7 +7,7 @@ My Raspberry Pi PBX system.
 - 64GB SD card
 
 ## OS
-Raspberry Pi OS Lite 64-bit (trixie)
+Raspberry Pi OS Lite 64-bit (trixie)\
 Installed using Raspberry Pi Imager
 
 ## Setup
