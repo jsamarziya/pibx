@@ -25,7 +25,7 @@ TODO install mysql (mariadb)
 ```
 cd /usr/local/src
 sudo wget https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-22-current.tar.gz
-sudo tar -xvzf asterisk-22-current.tar.gz
+sudo tar xzf asterisk-22-current.tar.gz
 cd asterisk-22*/
 sudo contrib/scripts/install_prereq install
 sudo ./configure
@@ -33,7 +33,9 @@ sudo ./configure
 
 ### Run Menuselect
 
-```sudo make menuselect```
+```
+sudo make menuselect
+```
 - Select the following:
   - TBD (probably need ulaw and 722 sounds, and extra sounds)
 
@@ -51,6 +53,7 @@ sudo make config
 # Install logrotate configuration
 sudo make install-logrotate
 ```
+TODO: may want to remove `make config` and replace with custom config files provided from this project
 
 ### Create Asterisk User
 ```
