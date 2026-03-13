@@ -70,3 +70,4 @@ sudo chown -R asterisk:asterisk /var/run/asterisk
 - [Raspberry Pi OS: Update software](https://www.raspberrypi.com/documentation/computers/os.html#update-software)
 - [Installing Asterisk From Source](https://docs.asterisk.org/Getting-Started/Installing-Asterisk/Installing-Asterisk-From-Source/)
 - [Install Asterisk on Debian 13 (Trixie)](https://www.ipcomms.net/blog/asterisk-debian-13-install/)
+- [Codecs Supported by voip.ms](https://wiki.voip.ms/article/Codecs_Supported)
